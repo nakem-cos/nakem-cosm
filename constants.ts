@@ -3,10 +3,10 @@ import { AppContent, Language } from './types';
 // Placeholder images - in a real scenario, these would be the uploaded assets
 const IMAGES = {
   hero: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2727&auto=format&fit=crop", // Nature leaves
-  story: "/brandstory.jpg", // Brand story image
-  ingredient: "/leaf.png", // Leaf texture
-  product1: "/ampoule.png", // Ampoule product image
-  product2: "/mask.png", // Mask product image
+  story: "/brandstory_v2.jpg", // Brand story image
+  ingredient: "/leaf_v2.png", // Leaf texture
+  product1: "/ampoule_v2.png", // Ampoule product image
+  product2: "/mask_v2.png", // Mask product image
 };
 
 export const CONTENT: Record<Language, AppContent> = {

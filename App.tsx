@@ -24,12 +24,12 @@ const App: React.FC = () => {
         <Hero content={content.hero} />
         <Story
           content={content.story}
-          image="/brandstory.jpg"
+          image="/brandstory_v2.jpg"
         />
         <Philosophy
           philosophy={content.philosophy}
           ingredient={content.ingredient}
-          ingredientImage="/leaf.png"
+          ingredientImage="/leaf_v2.png"
         />
         <Products
           title={content.products.title}
