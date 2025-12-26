@@ -46,6 +46,12 @@ export interface Product {
   tags: string[];
 }
 
+export interface ProcessStep {
+  icon: string;
+  title: string;
+  description: string;
+}
+
 export interface AppContent {
   nav: NavContent;
   hero: HeroContent;
@@ -55,6 +61,11 @@ export interface AppContent {
     items: PhilosophyItem[];
   };
   ingredient: IngredientContent;
+  process: {
+    title: string;
+    subtitle: string;
+    steps: ProcessStep[];
+  };
   products: {
     title: string;
     subtitle: string;

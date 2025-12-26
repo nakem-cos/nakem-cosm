@@ -25,7 +25,7 @@ const ProductCard: React.FC<{ product: Product; index: number }> = ({ product, i
         className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
       />
       {/* Decorative Overlay */}
-      <div className="absolute inset-0 bg-brand-green/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
     </div>
     
     {/* Content */}
@@ -43,8 +43,8 @@ const ProductCard: React.FC<{ product: Product; index: number }> = ({ product, i
              <p className="text-sm text-brand-dark/80 font-light leading-relaxed">{feature}</p>
            </div>
          ))}
-         {/* Tags displayed with check icons */}
-         {product.tags.length > 0 && (
+         {/* Tags displayed with check icons - only for ampoule */}
+         {product.id === 'ampoule' && product.tags.length > 0 && (
            <div className="flex items-start gap-3">
              <Check className="w-4 h-4 text-brand-green mt-1 flex-shrink-0" />
              <p className="text-sm text-brand-dark/80 font-light leading-relaxed">{product.tags.join(' / ')}</p>

@@ -62,6 +62,32 @@ export const CONTENT: Record<Language, AppContent> = {
         "식품 등급 원료: 안전하고 순수한 피부 케어"
       ]
     },
+    process: {
+      title: "Manufacturing Process",
+      subtitle: "자연의 순수함을 그대로 담아내는 NAKEM만의 정성 어린 제조 과정",
+      steps: [
+        {
+          icon: "leaf",
+          title: "원료 선별",
+          description: "국내산 청정 지역에서 자란 감잎만을 엄선하여 수확합니다. 최적의 시기에 채취한 잎만을 사용합니다."
+        },
+        {
+          icon: "thermometer",
+          title: "저온 추출",
+          description: "40°C 이하의 저온에서 72시간 동안 천천히 추출하여 유효 성분의 손실을 최소화합니다."
+        },
+        {
+          icon: "flask",
+          title: "정제 및 배합",
+          description: "식품 등급의 순수한 원료만을 사용하여 피부에 최적화된 비율로 정밀하게 배합합니다."
+        },
+        {
+          icon: "package",
+          title: "품질 검사 및 포장",
+          description: "엄격한 품질 관리를 거쳐 친환경 패키지에 담아 신선하게 전달합니다."
+        }
+      ]
+    },
     products: {
       title: "Product Line",
       subtitle: "감잎의 순수한 에너지를 담아, 피부 본연의 생기를 깨웁니다.",
@@ -90,7 +116,7 @@ export const CONTENT: Record<Language, AppContent> = {
           ],
           howToUse: "세안 후 토너로 피부결 정돈 > 마스크를 얼굴에 밀착시켜 10~20분 유지 > 남은 에센스를 가볍게 두드려 흡수",
           image: IMAGES.product2,
-          tags: []
+          tags: ["Clean Formula", "Vegan", "Cruelty-Free"]
         }
       ]
     },
@@ -143,12 +169,38 @@ export const CONTENT: Record<Language, AppContent> = {
     },
     ingredient: {
       title: "Core Ingredient: Persimmon Leaf",
-      description: "Translating nature’s healing language into the science of skincare.",
+      description: "Translating nature's healing language into the science of skincare.",
       features: [
         "Vitamin C: Brightening and radiance boost",
         "Polyphenols & Tannins: Antioxidant and firming benefits",
         "Low-Temperature Extraction: Preserves natural potency",
         "Food-Grade Purity: Safe and gentle for all skin types"
+      ]
+    },
+    process: {
+      title: "Our Process",
+      subtitle: "A meticulous journey from nature to your skin, preserving purity at every step",
+      steps: [
+        {
+          icon: "leaf",
+          title: "Ingredient Selection",
+          description: "We carefully select persimmon leaves grown in Korea's pristine regions, harvested at the optimal time for maximum potency."
+        },
+        {
+          icon: "thermometer",
+          title: "Low-Temperature Extraction",
+          description: "Extracted slowly over 72 hours at temperatures below 40°C to preserve all active nutrients and natural efficacy."
+        },
+        {
+          icon: "flask",
+          title: "Purification & Formulation",
+          description: "Using only food-grade pure ingredients, we precisely blend at optimal ratios for your skin."
+        },
+        {
+          icon: "package",
+          title: "Quality Control & Packaging",
+          description: "Rigorous quality testing ensures freshness, delivered in eco-friendly packaging."
+        }
       ]
     },
     products: {
@@ -174,7 +226,7 @@ export const CONTENT: Record<Language, AppContent> = {
           features: ["Persimmon Leaf + Niacinamide + Hyaluronic Acid", "Soothing, Hydrating, Brightening, Firming", "Eco-Friendly Biodegradable Tencel Sheet"],
           howToUse: "Cleanse & Tone > Apply mask for 10–20 mins > Pat remaining essence.",
           image: IMAGES.product2,
-          tags: []
+          tags: ["Clean Formula", "Vegan", "Cruelty-Free"]
         }
       ]
     },
